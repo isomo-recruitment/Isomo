@@ -7,7 +7,7 @@ module.exports = {
             { text: "Tab 3", link: "/tab3/" },
             {
                 text: "Github",
-                link: "https://github.com/TheFatPanda97/startup-incubator",
+                link: "https://github.com/TheFatPanda97/isomo",
             },
         ],
         sidebar: 'auto',
