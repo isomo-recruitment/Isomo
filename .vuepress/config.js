@@ -3,14 +3,14 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: "Home", link: "/" },
-            { text: "Our Research", link: "/Our Research/" },
-            { text: "Tab 3", link: "/tab3/" },
-            { text: "Tab 4", link: "/tab4/" },
+            { text: "Research", link: "/Research/" },
+            { text: "Recruiter", link: "/Recruiter/" },
+            { text: "Applicant", link: "/Applicant/" },
             {
                 text: "Github",
                 link: "https://github.com/TheFatPanda97/isomo",
             },
         ],
-        sidebar: 'auto',
+        sidebar: "auto",
     },
 };
