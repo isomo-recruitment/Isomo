@@ -4,13 +4,13 @@ module.exports = {
         nav: [
             { text: "Home", link: "/" },
             { text: "Our Research", link: "/Our Research/" },
-            { text: "Recruiter", link: "/tab3/" },
-            { text: "Applicant", link: "/tab4/" },
+            { text: "Recruiter", link: "/Recruiter/" },
+            { text: "Applicant", link: "/Applicant/" },
             {
                 text: "Github",
                 link: "https://github.com/TheFatPanda97/isomo",
             },
         ],
-        sidebar: 'auto',
+        sidebar: "auto",
     },
 };
