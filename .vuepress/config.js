@@ -1,5 +1,5 @@
 module.exports = {
-    title: "isomo",
+    title: "Isomo Recruitment",
     themeConfig: {
         nav: [
             { text: "Home", link: "/" },
