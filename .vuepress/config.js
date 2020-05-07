@@ -9,7 +9,7 @@ module.exports = {
             { text: "Applicant", link: "/Applicant/" },
             {
                 text: "Github",
-                link: "https://github.com/Isomo-Recruitment/documentation-website",
+                link: "https://github.com/Isomo-Recruitment",
             },
         ],
         sidebar: "auto",
