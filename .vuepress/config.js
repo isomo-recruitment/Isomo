@@ -1,5 +1,6 @@
 module.exports = {
     title: "Isomo Recruitment",
+    base: "/documentation-website/",
     themeConfig: {
         nav: [
             { text: "Home", link: "/" },
@@ -8,7 +9,7 @@ module.exports = {
             { text: "Applicant", link: "/Applicant/" },
             {
                 text: "Github",
-                link: "https://github.com/TheFatPanda97/isomo",
+                link: "https://github.com/Isomo-Recruitment/documentation-website",
             },
         ],
         sidebar: "auto",
