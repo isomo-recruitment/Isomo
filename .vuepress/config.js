@@ -1,6 +1,7 @@
 module.exports = {
     title: "Isomo Recruitment",
     base: "/documentation-website/",
+    head: [["link", { rel: "icon", href: "/favicon.ico" }]],
     themeConfig: {
         logo: "/logo.png",
         repo: "https://github.com/Isomo-Recruitment",
