@@ -3,7 +3,7 @@ module.exports = {
     base: "/documentation-website/",
     themeConfig: {
         nav: [
-            { text: "Test", link: "/" },
+            { text: "Home", link: "/" },
             { text: "Research", link: "/Research/" },
             { text: "Recruiter", link: "/Recruiter/" },
             { text: "Applicant", link: "/Applicant/" },
