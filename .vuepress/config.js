@@ -6,7 +6,7 @@ module.exports = {
         logo: "/logo.png",
         repo: "https://github.com/Isomo-Recruitment",
         nav: [
-            { text: "Home", link: "/" },
+            { text: "Test", link: "/" },
             { text: "Research", link: "/Research/" },
             { text: "Recruiter", link: "/Recruiter/" },
             { text: "Applicant", link: "/Applicant/" },
