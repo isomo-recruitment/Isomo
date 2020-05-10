@@ -7,9 +7,9 @@ module.exports = {
         repo: "https://github.com/Isomo-Recruitment",
         nav: [
             { text: "Home", link: "/" },
-            { text: "Research", link: "/Research/" },
-            { text: "Recruiter", link: "/Recruiter/" },
-            { text: "Applicant", link: "/Applicant/" },
+            { text: "Research", link: "/src/Research/" },
+            { text: "Recruiter", link: "/src/Recruiter/" },
+            { text: "Applicant", link: "/src/Applicant/" },
         ],
         sidebar: "auto",
     },
