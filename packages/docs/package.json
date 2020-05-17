@@ -1,0 +1,15 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "The current recruitment process could be **time consuming** and sometimes contain **unintentional bias**. People can fall prey to collective decision making errors similar to “herd behavior’, social hierarchy bias, and social conformity bias. These above challenges have become obstacles for companies that are striving to create a **diversified environment** through fair recruitment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vuepress build"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "vuepress": "^1.5.0"
+  }
+}
