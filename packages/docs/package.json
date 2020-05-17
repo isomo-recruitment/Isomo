@@ -1,0 +1,22 @@
+{
+  "name": "documentation-website",
+  "version": "1.0.0",
+  "description": "Documentation website for Isomo",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "deploy": "./deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isomo-Recruitment/documentation-website.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Isomo-Recruitment/documentation-website/issues"
+  },
+  "homepage": "https://github.com/Isomo-Recruitment/documentation-website#readme"
+}
