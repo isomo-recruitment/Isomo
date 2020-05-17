@@ -3,7 +3,7 @@ module.exports = {
     head: [["link", { rel: "icon", href: "/favicon.ico" }]],
     themeConfig: {
         logo: "/logo.png",
-        repo: "https://github.com/Isomo-Recruitment",
+        repo: "https://github.com/TheFatPanda97/Isomo",
         nav: [
             { text: "Home", link: "/" },
             { text: "Research", link: "/Research/" },
