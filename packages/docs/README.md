@@ -10,7 +10,6 @@ We thrive to achieve **true equality** during the recruitment process by **filte
 
 ## How did we do it?
 
-Hello this is a test for CI
 Isomo was created by a team of data
 scientists, analyst and game-changers driven by the goal of improving the **fairness**,
 **efficiency** and **accuracy** of the hiring decisions we make.
