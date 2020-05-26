@@ -1,9 +1,13 @@
 <template>
-    <v-app></v-app>
+    <home-page></home-page>
 </template>
 
 <script>
-export default {};
-</script>
+import HomePage from "./views/HomePage";
 
-<style></style>
+export default {
+    components: {
+        HomePage
+    }
+};
+</script>
