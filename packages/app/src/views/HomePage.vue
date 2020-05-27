@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import AppBar from "../component/App-bar"
+import AppBar from "../components/AppBar"
 export default {
     components:{
         AppBar,
