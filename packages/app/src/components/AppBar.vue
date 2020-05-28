@@ -1,14 +1,18 @@
 <template>
     <v-app-bar app color="black" style="opacity: 0.9">
         <v-img src="../assets/logo.png" max-height="40" max-width="40"></v-img>
-        <v-btn text color="white" style="font-size:25px">Isomo</v-btn>
+        <app-bar-btn style="font-size:25px" text="Isomo" disableHover></app-bar-btn>
         <v-spacer></v-spacer>
-        <v-btn text color="white" style="text-transform: capitalize;">About</v-btn>
-        <v-divider vertical color="grey"></v-divider>
-        <v-btn text color="white" style="text-transform: capitalize;">Sign Up</v-btn>
-        <v-btn text color="white" style="text-transform: capitalize;">Login</v-btn>
+        <app-bar-btn text="About"></app-bar-btn>
+        <app-bar-btn text="Sign Up"></app-bar-btn>
+        <app-bar-btn text="Login"></app-bar-btn>
     </v-app-bar>
 </template>
 <script>
-export default {};
+import AppBarBtn from "./AppBarBtn";
+export default {
+    components: {
+        AppBarBtn,
+    },
+};
 </script>
