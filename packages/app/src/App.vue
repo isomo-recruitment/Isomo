@@ -1,13 +1,3 @@
 <template>
-    <home-page></home-page>
+    <router-view/>
 </template>
-
-<script>
-import HomePage from "./views/HomePage";
-
-export default {
-    components: {
-        HomePage
-    }
-};
-</script>

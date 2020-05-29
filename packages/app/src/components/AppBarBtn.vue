@@ -7,6 +7,7 @@
         "
         @mouseover="hovered = true"
         @mouseleave="hovered = false"
+        @click="switchRoute"
     >
         {{ text }}
     </p>
@@ -16,7 +17,13 @@
 export default {
     props: {
         text: String,
-        disableHover: Boolean
+        disableHover: Boolean,
+        routeName: String
+    },
+    methods: {
+        switchRoute(){
+            this.$router.push({name: this.routeName})
+        }
     },
     data() {
         return {
