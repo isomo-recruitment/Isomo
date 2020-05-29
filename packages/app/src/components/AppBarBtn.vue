@@ -18,12 +18,20 @@ export default {
     props: {
         text: String,
         disableHover: Boolean,
-        routeName: String
+        routeName: String,
+        link: String,
     },
     methods: {
-        switchRoute(){
-            this.$router.push({name: this.routeName})
-        }
+        switchRoute() {
+            if (!this.link) {
+                this.$router.push({ name: this.routeName });
+            } else {
+                window.open(
+                    this.link,
+                    "_blank" // <- This is what makes it open in a new window.
+                );
+            }
+        },
     },
     data() {
         return {
