@@ -14,7 +14,7 @@
         ></app-bar-btn>
         <v-divider vertical color="grey"></v-divider>
         <app-bar-btn text="Sign Up" routeName="SignUp"></app-bar-btn>
-        <app-bar-btn text="Login"></app-bar-btn>
+        <app-bar-btn text="Login" routeName="Login"></app-bar-btn>
     </v-app-bar>
 </template>
 <script>
