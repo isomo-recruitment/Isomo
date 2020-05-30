@@ -23,6 +23,10 @@
                 >Company</v-btn
               >
             </div>
+            <div style="margin: 30px 0px">
+              <app-bar-btn text="If you have an account" routeName="Login">
+              </app-bar-btn>
+            </div>
           </div>
         </v-col>
         <v-col cols="5">
@@ -37,6 +41,7 @@
 
 <script>
 import AppBar from "../components/AppBar";
+import AppBarBtn from "../components/AppBarBtn";
 export default {
   computed: {
     windowHeight() {
@@ -45,6 +50,7 @@ export default {
   },
   components: {
     AppBar,
+    AppBarBtn
   },
 };
 </script>
