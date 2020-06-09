@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import HomePage from "../views/HomePage.vue";
 import SignUpPage from "../views/SignUpPage.vue"
 import LoginPage from "../views/LoginPage.vue"
+import ApplicantDashboard from "../views/ApplicantDashboard"
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,11 @@ const routes = [
         path: "/login",
         name: "Login",
         component: LoginPage
+    },
+    {
+        path: "/applicant",
+        name: "Applicant",
+        component: ApplicantDashboard
     },
     {
         path: "*",
