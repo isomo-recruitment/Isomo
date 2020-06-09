@@ -5,6 +5,7 @@
       <v-row>
         <v-col>
           <profile-card></profile-card>
+          <application-card></application-card>
         </v-col>
       </v-row>
     </v-content>
@@ -13,10 +14,12 @@
 <script>
 import UserAppBar from "../components/UserAppBar";
 import ProfileCard from "../components/ProfileCard";
+import ApplicationCard from "../components/ApplicationCard.vue";
 export default {
   components: {
     UserAppBar,
-    ProfileCard
+    ProfileCard,
+    ApplicationCard,
   }
 };
 </script>
