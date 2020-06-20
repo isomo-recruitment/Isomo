@@ -30,16 +30,16 @@
                 <v-container>
                     <v-row justify="center" align="center" dense>
                         <v-col>
-                            <detail-card></detail-card>
+                            <detail-card status="rejected"></detail-card>
                         </v-col>
                         <v-col>
-                            <detail-card></detail-card>
+                            <detail-card status="pending"></detail-card>
                         </v-col>
                         <v-col>
-                            <detail-card></detail-card>
+                            <detail-card status="accepted"></detail-card>
                         </v-col>
                         <v-col>
-                            <detail-card></detail-card>
+                            <detail-card status="pending"></detail-card>
                         </v-col>
                     </v-row>
                 </v-container>

@@ -1,17 +1,15 @@
 <template>
     <v-container>
         <v-row justify="center">
-            <v-card
-                width="900"
-                height="300"
-            >
+            <v-card width="900" height="300">
                 <v-row justify="start" class="ma-0">
                     <v-card width="350" elevation="0" class="ma-3">
                         <v-row class="ma-0">
                             <v-avatar class="ma-3" size="80">
                                 <v-img
                                     src="https://cdn.vuetifyjs.com/images/cards/halcyon.png"
-                                ></v-img>
+                                >
+                                </v-img>
                             </v-avatar>
                             <div>
                                 <v-card-title
