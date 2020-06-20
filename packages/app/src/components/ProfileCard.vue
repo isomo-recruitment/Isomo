@@ -1,7 +1,10 @@
 <template>
     <v-container>
-        <v-row>
-            <v-card width="700" height="300">
+        <v-row justify="center">
+            <v-card
+                width="900"
+                height="300"
+            >
                 <v-row justify="start" class="ma-0">
                     <v-card width="350" elevation="0" class="ma-3">
                         <v-row class="ma-0">

@@ -1,6 +1,6 @@
 <template>
   <v-row>
-      <v-card width=250 height=300>
+      <v-card width=200 height=300 class="center">
         <v-card-text>
             Job
         </v-card-text>
