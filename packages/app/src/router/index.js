@@ -5,6 +5,7 @@ import SignUpPage from "../views/SignUpPage.vue"
 import LoginPage from "../views/LoginPage.vue"
 import ApplicantDashboard from "../views/ApplicantDashboard"
 
+
 Vue.use(VueRouter);
 
 const routes = [

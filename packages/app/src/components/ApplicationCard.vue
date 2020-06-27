@@ -40,11 +40,13 @@
             </v-container>
           </v-tab-item>
           <v-tab-item>
-            <v-row justify="center">
-
-			<blog-post></blog-post>
-			<blog-post></blog-post>
-            </v-row>
+            <perfect-scrollbar>
+              <blog-post header="First Blog Post"></blog-post>
+              <blog-post header="Second Blog Post"></blog-post>
+              <blog-post header="Third Blog Post"></blog-post>
+              <blog-post header="Fourth Blog Post"></blog-post>
+              <blog-post header="Fifth Blog Post"></blog-post>
+            </perfect-scrollbar>
           </v-tab-item>
         </v-tabs>
       </v-card>
@@ -53,11 +55,16 @@
 </template>
 <script>
 import DetailCard from "./DetailCard";
-import BlogPost from "./BlogPost"
+import BlogPost from "./BlogPost";
 export default {
   components: {
     DetailCard,
-    BlogPost,
+    BlogPost
   }
 };
 </script>
+<style>
+.ps {
+  height: 330px;
+}
+</style>
