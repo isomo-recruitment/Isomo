@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-content>
+    <v-content style="background-image: linear-gradient(white, #8be4f0);">
           <user-app-bar/>
       <v-row>
         <v-col>

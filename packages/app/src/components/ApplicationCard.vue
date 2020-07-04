@@ -5,6 +5,7 @@
         <v-tabs>
           <v-tab>Applications</v-tab>
           <v-tab>Blogs</v-tab>
+          <v-tab>Projects</v-tab>
           <v-tab-item>
             <v-row justify="end">
               <v-col cols="2" class="mr-2 mt-2">
@@ -46,6 +47,15 @@
               <blog-post header="Third Blog Post"></blog-post>
               <blog-post header="Fourth Blog Post"></blog-post>
               <blog-post header="Fifth Blog Post"></blog-post>
+            </perfect-scrollbar>
+          </v-tab-item>
+          <v-tab-item>
+            <perfect-scrollbar>
+              <blog-post header="First project"></blog-post>
+              <blog-post header="Second project"></blog-post>
+              <blog-post header="Third project"></blog-post>
+              <blog-post header="Fourth project"></blog-post>
+              <blog-post header="Fifth project"></blog-post>
             </perfect-scrollbar>
           </v-tab-item>
         </v-tabs>
