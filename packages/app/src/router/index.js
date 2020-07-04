@@ -4,6 +4,8 @@ import HomePage from "../views/HomePage.vue";
 import SignUpPage from "../views/SignUpPage.vue"
 import LoginPage from "../views/LoginPage.vue"
 import ApplicantDashboard from "../views/ApplicantDashboard"
+import RecruiterDashboard from "../views/RecruiterDashboard"
+import CompanyDashboard from "../views/CompanyDashboard"
 
 
 Vue.use(VueRouter);
@@ -28,6 +30,16 @@ const routes = [
         path: "/applicant",
         name: "Applicant",
         component: ApplicantDashboard
+    },
+    {
+        path: "/recruiter",
+        name: "Recruiter",
+        component: RecruiterDashboard
+    },
+    {
+        path: "/company",
+        name: "Company",
+        component: CompanyDashboard
     },
     {
         path: "*",
